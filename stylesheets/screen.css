@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .flags-z { background-position: 0 -64px; }
 
-html, body { color: #333333; height: 100%; font-family: 'champagne__limousinesregular'; }
+html, body { color: #111111; height: 100%; font-family: 'champagne__limousinesregular'; }
 
 h1 { font-size: 2em; font-weight: bold; margin-bottom: 0.5em; font-family: 'champagne__limousinesbold'; }
 
@@ -82,7 +82,7 @@ body { background: white url("../images/bg.jpg"); }
 .flags { margin-bottom: 0.5em; }
 .flags .flag { display: inline-block; width: 25px; height: 16px; margin-right: 5px; margin-bottom: 5px; }
 
-a, a:active, a:visited { color: #333333; text-decoration: none; }
+a, a:active, a:visited { color: #111111; text-decoration: none; }
 
 .sv { display: none; }
 
@@ -104,6 +104,7 @@ a, a:active, a:visited { color: #333333; text-decoration: none; }
 @media only screen and (max-width: 460px) { .centered #container #page-view .page { text-align: left; } }
 .centered #container #page-view .page a, .centered #container #page-view .page a:active, .centered #container #page-view .page a:visited { text-decoration: underline; }
 .centered #container #page-view .page p { padding-bottom: 1em; }
+.centered #container #page-view .page p.contact { text-align: left; padding-bottom: 0.5em; }
 
 .page { display: none; height: 0; }
 

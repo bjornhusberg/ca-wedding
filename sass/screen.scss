@@ -9,7 +9,7 @@
 $default-margin: 10px;
 
 html, body {
-	color: #333333;
+	color: #111111;
 	height: 100%;
 	font-family: 'champagne__limousinesregular';
 }
@@ -49,7 +49,7 @@ body {
 }
 
 a, a:active, a:visited {
-	color: #333333;
+	color: #111111;
 	text-decoration: none;
 }
 
@@ -128,6 +128,10 @@ a, a:active, a:visited {
 				}
 				p {
 					padding-bottom: 1em;
+					&.contact {
+						text-align:left;
+						padding-bottom: 0.5em;
+					}
 				}
 			}
 		}
