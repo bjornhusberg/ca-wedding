@@ -1,0 +1,156 @@
+
+@import "compass/reset";
+@import "compass/css3";
+
+@import "compass/utilities/sprites";
+@import "flags/*.png";
+@include all-flags-sprites;
+
+$default-margin: 10px;
+
+html, body {
+	color: #333333;
+	height: 100%;
+	font-family: 'champagne__limousinesregular';
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	font-family: 'champagne__limousinesbold';
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-family: 'champagne__limousinesbold';
+}
+
+p {
+	font-size: 1.2em;
+}
+
+body {
+	background: white url('../images/bg.jpg');
+}
+
+.flags {
+	margin-bottom: 0.5em;
+	.flag {
+		display: inline-block;
+		width: 25px;
+		height: 16px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+}
+
+a, a:active, a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+.sv {
+	display: none;
+}
+
+#lang-menu {
+	position: absolute;
+	right: 0;
+	li {
+		display:inline-block;
+		margin: $default-margin $default-margin 0 0;
+		a {
+			@include opacity(0.3);
+			&.selected {
+				@include opaque;
+			}
+		}
+	}
+}
+
+#fullheight {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	width: 1%;
+}
+.centered {
+	display: inline-block;
+	vertical-align: middle;
+	width: 98%;
+	margin-left: 1%;
+
+	#container {
+		padding-top: 40px;
+		display: none;
+		text-align: center;
+
+		#logo {
+			padding-bottom: 30px;
+		}
+
+		#page-menu {
+			margin: $default-margin 0;
+			padding: $default-margin 0 0 0;
+			border-top: 1px solid black;
+			border-bottom: 1px solid black;
+			font-size: 1.2em;
+
+			li {
+				display: inline-block;
+				padding: 0 $default-margin;
+				margin: 0 0 $default-margin 0;
+				a.selected {	
+					font-family: 'champagne__limousinesbold';
+				}
+			}
+		}
+
+		#page-view {
+			padding-top: 30px;
+			display: block;
+			position: relative;
+			width: 438px;
+			margin: 0 auto;
+			.page {
+				@media only screen and (max-width:440px + 2*$default-margin) {
+					text-align: left;
+				}
+				position: absolute;
+				text-align: justify;
+				margin: 0 auto;
+				a, a:active, a:visited {
+					text-decoration: underline;
+				}
+				p {
+					padding-bottom: 1em;
+				}
+			}
+		}
+	}
+}
+
+.page {
+	display: none;
+	height: 0;
+}
+
+.fontloader {
+	position: absolute;
+	left:-10000px;
+	font-family: 'champagne__limousinesbold';
+}
+
+@media only screen and (max-width:440px + 2*$default-margin) {
+	.centered #container {
+		#logo img, #page-view {
+			width: 90%;
+			margin: 0 5%;
+		}
+	}
+}
+

@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+.flags-sprite, .flags-a, .flags-b, .flags-c, .flags-d, .flags-e, .flags-f, .flags-g, .flags-h, .flags-i, .flags-j, .flags-k, .flags-l, .flags-m, .flags-n, .flags-o, .flags-p, .flags-q, .flags-r, .flags-s, .flags-t, .flags-u, .flags-v, .flags-w, .flags-x, .flags-y, .flags-z { background: url('/u/1365698/carolineandreas/images/flags-sd96cf745b3.png') no-repeat; }
+
+.flags-a { background-position: 0 -144px; }
+
+.flags-b { background-position: 0 -208px; }
+
+.flags-c { background-position: 0 -272px; }
+
+.flags-d { background-position: 0 -320px; }
+
+.flags-e { background-position: 0 -384px; }
+
+.flags-f { background-position: 0 -48px; }
+
+.flags-g { background-position: 0 -240px; }
+
+.flags-h { background-position: 0 -304px; }
+
+.flags-i { background-position: 0 -96px; }
+
+.flags-j { background-position: 0 -288px; }
+
+.flags-k { background-position: 0 -368px; }
+
+.flags-l { background-position: 0 -336px; }
+
+.flags-m { background-position: 0 0; }
+
+.flags-n { background-position: 0 -80px; }
+
+.flags-o { background-position: 0 -160px; }
+
+.flags-p { background-position: 0 -224px; }
+
+.flags-q { background-position: 0 -400px; }
+
+.flags-r { background-position: 0 -176px; }
+
+.flags-s { background-position: 0 -192px; }
+
+.flags-t { background-position: 0 -352px; }
+
+.flags-u { background-position: 0 -256px; }
+
+.flags-v { background-position: 0 -16px; }
+
+.flags-w { background-position: 0 -128px; }
+
+.flags-x { background-position: 0 -112px; }
+
+.flags-y { background-position: 0 -32px; }
+
+.flags-z { background-position: 0 -64px; }
+
+html, body { color: #333333; height: 100%; font-family: 'champagne__limousinesregular'; }
+
+h1 { font-size: 2em; font-weight: bold; margin-bottom: 0.5em; font-family: 'champagne__limousinesbold'; }
+
+h2 { font-size: 1.2em; font-weight: bold; margin-top: 1em; margin-bottom: 0.5em; font-family: 'champagne__limousinesbold'; }
+
+p { font-size: 1.2em; }
+
+body { background: white url("../images/bg.jpg"); }
+
+.flags { margin-bottom: 0.5em; }
+.flags .flag { display: inline-block; width: 25px; height: 16px; margin-right: 5px; margin-bottom: 5px; }
+
+a, a:active, a:visited { color: #333333; text-decoration: none; }
+
+.sv { display: none; }
+
+#lang-menu { position: absolute; right: 0; }
+#lang-menu li { display: inline-block; margin: 10px 10px 0 0; }
+#lang-menu li a { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30); opacity: 0.3; }
+#lang-menu li a.selected { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+
+#fullheight { display: inline-block; vertical-align: middle; height: 100%; width: 1%; }
+
+.centered { display: inline-block; vertical-align: middle; width: 98%; margin-left: 1%; }
+.centered #container { padding-top: 40px; display: none; text-align: center; }
+.centered #container #logo { padding-bottom: 30px; }
+.centered #container #page-menu { margin: 10px 0; padding: 10px 0 0 0; border-top: 1px solid black; border-bottom: 1px solid black; font-size: 1.2em; }
+.centered #container #page-menu li { display: inline-block; padding: 0 10px; margin: 0 0 10px 0; }
+.centered #container #page-menu li a.selected { font-family: 'champagne__limousinesbold'; }
+.centered #container #page-view { padding-top: 30px; display: block; position: relative; width: 438px; margin: 0 auto; }
+.centered #container #page-view .page { position: absolute; text-align: justify; margin: 0 auto; }
+@media only screen and (max-width: 460px) { .centered #container #page-view .page { text-align: left; } }
+.centered #container #page-view .page a, .centered #container #page-view .page a:active, .centered #container #page-view .page a:visited { text-decoration: underline; }
+.centered #container #page-view .page p { padding-bottom: 1em; }
+
+.page { display: none; height: 0; }
+
+.fontloader { position: absolute; left: -10000px; font-family: 'champagne__limousinesbold'; }
+
+@media only screen and (max-width: 460px) { .centered #container #logo img, .centered #container #page-view { width: 90%; margin: 0 5%; } }
