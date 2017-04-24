@@ -15,7 +15,7 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
-.flags-sprite, .flags-a, .flags-b, .flags-c, .flags-d, .flags-e, .flags-f, .flags-g, .flags-h, .flags-i, .flags-j, .flags-k, .flags-l, .flags-m, .flags-n, .flags-o, .flags-p, .flags-q, .flags-r, .flags-s, .flags-t, .flags-u, .flags-v, .flags-w, .flags-x, .flags-y, .flags-z { background: url('/images/flags-sd96cf745b3.png') no-repeat; }
+.flags-sprite, .flags-a, .flags-b, .flags-c, .flags-d, .flags-e, .flags-f, .flags-g, .flags-h, .flags-i, .flags-j, .flags-k, .flags-l, .flags-m, .flags-n, .flags-o, .flags-p, .flags-q, .flags-r, .flags-s, .flags-t, .flags-u, .flags-v, .flags-w, .flags-x, .flags-y, .flags-z { background: url('../images/flags-sd96cf745b3.png') no-repeat; }
 
 .flags-a { background-position: 0 -144px; }
 
